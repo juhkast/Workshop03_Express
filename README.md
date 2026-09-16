@@ -60,7 +60,7 @@ The server will:
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/Laurea-FullStack-2026/Workshop03_Express.git
+git clone https://github.com/juhkast/Workshop03_Express.git
 cd Workshop03_Express
 ```
 
