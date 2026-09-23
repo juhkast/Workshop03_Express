@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 // Optional: basic root response to verify the server is up.
 app.get("/", (req, res) => {
-  res.send("Hello from Express!");
+  res.send("Hello world!");
 });
 
 app.get("/about", (req, res) => {
