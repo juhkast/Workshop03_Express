@@ -4,9 +4,13 @@ const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Example route to show normal behavior.
+// Example route to show normal behavior. HERE MAKE ERROR TO THE CODE
 app.get('/', (req, res) => {
   res.send('OK');
+});
+
+app.get("/error", (req, res) => {
+  throw new Error("Test error");
 });
 
 // 404 handler (after all routes).
